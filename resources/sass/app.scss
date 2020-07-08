@@ -1,0 +1,45 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.laravel-react-crud {
+    .navbar {
+        margin-top: 30px;
+        .nav-link {
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+
+    .jumbotron {
+        .posts {
+            .post-item {
+                border: solid 5px #ffff;
+                padding: 20px;
+                margin-bottom: 30px;
+
+                .edit {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+
+        .add-post{
+            border:solid 5px #fff;
+            padding:20px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    }
+}
