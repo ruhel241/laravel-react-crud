@@ -28,10 +28,10 @@ DB_USERNAME=root
 DB_PASSWORD=root
 ```
 
-Navigate your project then command in your terminal, database migrate & seed
-This command is useful for completely building your database:
+Navigate your project then command in your terminal, **database migrate & seed** 
+
+*This command is useful for completely building your database:*
 ```
-php artisan migrate
 php artisan migrate:fresh --seed
 ```
 
